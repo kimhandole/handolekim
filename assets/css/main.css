@@ -2053,7 +2053,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		background-color: #212121;
 	}
 
 		.image[data-position] img {
@@ -2203,6 +2202,7 @@ input, select, textarea {
 			display: block;
 			height: 20em;
 			border-radius: 0;
+			background-color: #212121;
 		}
 
 			.image.main img {
