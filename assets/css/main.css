@@ -2053,13 +2053,14 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		background-color: #212121;
 	}
 
 		.image[data-position] img {
 			-moz-object-fit: fill;
 			-webkit-object-fit: fill;
 			-ms-object-fit: fill;
-			object-fit: fill;
+			object-fit: contain;
 			display: block;
 			position: absolute;
 			top: 0;
