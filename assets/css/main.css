@@ -2059,7 +2059,7 @@ input, select, textarea {
 			-moz-object-fit: fill;
 			-webkit-object-fit: fill;
 			-ms-object-fit: fill;
-			object-fit: cover;
+			object-fit: contain;
 			display: block;
 			position: absolute;
 			top: 0;
